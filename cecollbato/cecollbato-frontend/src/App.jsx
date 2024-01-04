@@ -1,6 +1,7 @@
 //import { useState } from 'react'
-import EmailLogin from "./pages/EmailLogin";
+//import EmailLogin from "./pages/EmailLogin";
 import './App.css'
+import Formulario from "./components/Formulario";
 
 function App() {
 
@@ -11,8 +12,8 @@ function App() {
     {/*<Users />*/}
     {/* <Button />
     <CreatePost /> */}
-    <EmailLogin />
-
+    {/*<EmailLogin />*/}
+      <Formulario/>
      
 
     {/* <Navbar /> */}
