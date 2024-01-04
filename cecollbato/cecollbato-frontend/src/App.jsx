@@ -1,7 +1,8 @@
 //import { useState } from 'react'
 //import EmailLogin from "./pages/EmailLogin";
 import './App.css'
-import Formulario from "./components/Formulario";
+//import Formulario from "./components/Formulario";
+import FormulariInscripcio from './pages/formulariInscripcio';
 
 function App() {
 
@@ -13,7 +14,7 @@ function App() {
     {/* <Button />
     <CreatePost /> */}
     {/*<EmailLogin />*/}
-      <Formulario/>
+      <FormulariInscripcio/>
      
 
     {/* <Navbar /> */}
