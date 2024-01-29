@@ -28,147 +28,183 @@ const Formulari = () => {
         console.log(result.data)
     })
 
-  return (
+  return ( 
     <div>
-        <form onSubmit={onSubmit}>
-          <label>
+      <form className="grid grid-cols-3 bg-slate-300 w-full"
+        onSubmit={onSubmit}>
+          <div className="p-4">
+            <label className="text-cyan-800 justify-start">
               Nom del Jugador
-            <input 
+            </label>
+            <input className="text-slate-700 m-3 px-3 py-2 border-solid border-2 border-cyan-400 rounded-lg w-30"
               type= "text"
               name= "Nom"
               placeholder="Nom"
               {...register("Nom", {require:true})}/>
-          </label>
-          <label>
+          </div>
+          <div className="p-4">
+            <label className="text-cyan-800 justify-start">
               Primer Cognom del Jugador
-            <input 
-                type= "text"
-                name= "Primer_Cognom"
-                placeholder="Primer Cognom"
-                {...register("Primer_Cognom", {require:true})}/>
-          </label>
-          <label>
-            Segon Cognom del Jugador
-            <input 
+            </label>
+            <input className="text-slate-700 m-3 px-3 py-2 border-solid border-2 border-cyan-400 rounded-lg"
+                  type= "text"
+                  name= "Primer_Cognom"
+                  placeholder="Primer Cognom"
+                  {...register("Primer_Cognom", {require:true})}/>
+          </div>
+          <div className="p-4">
+            <label className="text-cyan-800 justify-start">
+              Segon Cognom del Jugador
+            </label>
+            <input className="text-slate-700 m-3 px-3 py-2 border-solid border-2 border-cyan-400 rounded-lg"
                 type= "text"
                 name= "Segon_Cognom"
                 placeholder="Segon Cognom"
                 {...register("Segon_Cognom", {require:true})}/>
-          </label>
-          <label>
+          </div>
+          <div className="p-4">
+            <label className="text-cyan-800 justify-start">
               DNI del Jugador
-            <input 
+            </label>
+            <input className="text-slate-700 m-3 px-3 py-2 border-solid border-2 border-cyan-400 rounded-lg"
                 type= "text"
                 name= "DNI"
                 placeholder="DNI"
                 {...register("DNI", {require:true})}/>
-          </label>
-          <label>
+          </div>
+          <div className="p-4">
+            <label className="text-cyan-800 justify-start">
               Any de Naixement
-            <input 
+            </label>
+            <input className="text-slate-700 m-3 px-3 py-2 border-solid border-2 border-cyan-400 rounded-lg"
                 type= "text"
                 name= "Any_de_naixement"
                 placeholder="Any de naixement"
                 {...register("Any_de_naixement", {require:true})}/>
-          </label>
-          <label>
+          </div>
+          <div className="p-4">
+            <label className="text-cyan-800 justify-start">
               Adreça
-            <input 
+            </label>
+            <input className="text-slate-700 m-3 px-3 py-2 border-solid border-2 border-cyan-400 rounded-lg"
                 type= "text"
                 name= "Adreça"
                 placeholder="Adreça"
                 {...register("Adreça", {require:true})}/>
-          </label>
-          <label>
+          </div>
+          <div className="p-4">
+            <label className="text-cyan-800 justify-start">
               Número
-            <input 
+            </label>
+            <input className="text-slate-700 m-3 px-3 py-2 border-solid border-2 border-cyan-400 rounded-lg"
                 type= "text"
                 name= "Número"
                 placeholder="Número"
                 {...register("Número", {require:true})}/>
-          </label>
-          <label>
+          </div>
+          <div className="flex flex-col p-4">
+            <label className="text-cyan-800 justify-start">
               Pis
-            <input 
+            </label>
+            <input className="text-slate-700 m-3 px-3 py-2 border-solid border-2 border-cyan-400 rounded-lg"
                 type= "text"
                 name= "Pis"
                 placeholder="Pis"
                 {...register("Pis", {require:true})}/>
-          </label>
-          <label>
+          </div>
+          <div className="p-4">
+            <label className="text-cyan-800 justify-start">
               Porta
-            <input 
+            </label>
+            <input className="text-slate-700 m-3 px-3 py-2 border-solid border-2 border-cyan-400 rounded-lg"
                 type= "text"
                 name= "Porta"
                 placeholder="Porta"
                 {...register("Porta", {require:true})}/>
-          </label>
-          <label>
-            Població
-            <input 
+          </div>
+          <div className="p-4">
+            <label className="text-cyan-800 justify-start">
+              Població
+            </label>
+            <input className="text-slate-700 m-3 px-3 py-2 border-solid border-2 border-cyan-400 rounded-lg"
                 type= "text"
                 name= "Població"
                 placeholder="Població"
                 {...register("Població", {require:true})}/>
-          </label>
-          <label>
+          </div>
+          <div className="p-4">
+            <label className="text-cyan-800 justify-start">
               Codi Postal
-            <input 
+            </label>
+            <input className="text-slate-700 m-3 px-3 py-2 border-solid border-2 border-cyan-400 rounded-lg"
                 type= "text"
                 name= "Codi_Postal"
                 placeholder="Codi Postal"
                 {...register("Codi_Postal", {require:true})}/>
-          </label>
-          <label>
+          </div>
+          <div className="p-4">
+            <label className="text-cyan-800 justify-start">
               Nom del Pare
-            <input 
+            </label>
+            <input className="text-slate-700 m-3 px-3 py-2 border-solid border-2 border-cyan-400 rounded-lg"
                 type= "text"
                 name= "Nom_del_Pare"
                 placeholder="Nom del Pare"
                 {...register("Nom_del_Pare", {require:true})}/>
-          </label>
-          <label>
+          </div>
+          <div className="p-4">
+            <label className="text-cyan-800 justify-start">
               Nom de la Mare
-            <input 
+            </label>
+            <input className="text-slate-700 m-3 px-3 py-2 border-solid border-2 border-cyan-400 rounded-lg"
                 type= "text"
                 name= "Nom_de_la_Mare"
                 placeholder="Nom de la mare"
                 {...register("Nom_de_la_Mare", {require:true})}/>
-          </label>
-          <label>
+          </div>
+          <div className="p-4">
+            <label className="text-cyan-800 justify-start">
             Telèfon del Pare
-            <input 
+            </label>
+            <input className="text-slate-700 m-3 px-3 py-2 border-solid border-2 border-cyan-400 rounded-lg"
                 type= "number"
                 name= "Telèfon_del_Pare"
                 placeholder="Telèfon"
                 {...register("Telèfon_del_Pare", {require:true})}/>
-          </label>
-          <label>
+          </div>
+          <div className="p-4">
+            <label className="text-cyan-800 justify-start">
               Telèfon de la Mare
-            <input 
+            </label>
+            <input className="text-slate-700 m-3 px-3 py-2 border-solid border-2 border-cyan-400 rounded-lg"
                 type= "text"
                 name= "Telèfon_de_la_Mare"
                 placeholder="Telèfon"
                 {...register("Telèfon_de_la_Mare", {require:true})}/>
-          </label>
-          <label>
+          </div>
+          <div className="p-4">
+            <label className="text-cyan-800 justify-start">
               Data reconeixement mèdic
-            <input 
-                type= "text"
+            </label>
+            <input className="text-slate-700 m-3 px-3 py-2 border-solid border-2 border-cyan-400 rounded-lg"
+                type= "date"
                 name= "Data_reconeixement_mèdic"
                 placeholder="Data del reconeixement mèdic"
                 {...register("Data_reconeixement_mèdic", {require:true})}/>
-          </label>
-            <label>
+          </div>
+          <div className="p-4">
+            <label className="text-cyan-800 justify-start">
               Correu electrònic
-            <input 
+            </label>
+            <input className="text-slate-700 m-3 px-3 py-2 border-solid border-2 border-cyan-400 rounded-lg"
                 type= "text"
                 id="Correu_electrònic"
                 name= "Correu_electrònic"
                 placeholder="Correu electrònic"
                 {...register("Correu_electrònic", {require:true})}/>
-          </label>
-        <button type="submit">Enviar</button>
+          </div>
+          <button className="text-cyan-700 m-3 p-3 bg-cyan-400 border-2 border-solid rounded-lg" 
+            type="submit">Enviar</button>
         </form>
     </div>
   )
