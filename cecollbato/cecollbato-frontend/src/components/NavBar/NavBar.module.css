@@ -1,0 +1,122 @@
+body {
+  margin-top: 350px; /* Ajusta este valor según el alto de tu barra de navegación */
+}
+
+.navBar {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navAdalt {
+  align-items: center;
+  background-color: rgb(134, 16, 16);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5rem;
+  width: 100%;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  gap: 5rem;
+  padding: 0em 10em;
+}
+
+.logosRrss {
+  display: flex;
+  flex-direction: row;
+  gap: 3em;
+  padding: 0em 10em;
+}
+
+.navAbaix {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1.5em;
+  width: 100%;
+}
+
+.escut {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0em 5em;
+}
+
+.info h3 {
+  font-size: 1.3em;
+  color: white;
+  font-weight: 500;
+}
+
+.navegador {
+  display: flex;
+  flex-direction: row;
+  gap: 10em;
+  justify-content: space-between;
+  margin-right: 150px;
+}
+
+.menu {
+  font-size: 1.5em;
+  position: relative;
+  text-decoration: none;
+}
+
+.menu h2 {
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+.menu h2 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.menu:hover {
+  background-color: rgb(134, 16, 16);
+  color: white;
+  padding-left: 10px;
+  width: 300px;
+}
+
+.subMenu {
+  position: absolute;
+  top: calc(100% +10px);
+  left: 0;
+  background-color: rgb(134, 16, 16);
+  font-size: 1.2em;
+  line-height: 1.5em;
+  padding-left: 10px;
+  width: 300px;
+  z-index: 1;
+}
+
+.subMenu ul {
+  list-style: none;
+}
+
+.subMenu ul li {
+  margin-bottom: 5px;
+}
+
+.subMenu ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.burger {
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
