@@ -12,13 +12,7 @@ export default function Layout() {
         <Outlet />
       </main>
 
-      {/* <Link className={styles.backButton} to={-1}>
-        <BackArrow />
-      </Link> */}
-
-      <div>
-        <Footer />
-      </div>
+      <Footer />
     </>
   );
 }

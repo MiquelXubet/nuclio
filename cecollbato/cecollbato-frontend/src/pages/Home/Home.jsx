@@ -7,14 +7,14 @@ function Home() {
   return (
     <div>
       <section id={styles.hero}>
-        <div>
-          <h1>FUTSAL COLLBATÓ</h1>
-        </div>
-        <div>
-          <button>
-            INSCRIPCIONS<br></br> OBERTES
-          </button>
-        </div>
+        {/* <div>
+            <h1>FUTSAL COLLBATÓ</h1>
+          </div> */}
+        {/* <div>
+            <button>
+              INSCRIPCIONS<br></br> OBERTES
+            </button>
+          </div> */}
       </section>
       <section id={styles.contenedorCajas}>
         <div className={styles.cajaInscripcion}>

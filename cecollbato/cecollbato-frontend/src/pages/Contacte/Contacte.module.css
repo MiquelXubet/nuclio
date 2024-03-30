@@ -1,0 +1,151 @@
+.contenidor {
+  /* background-color: rgb(241, 241, 238); */
+  /* padding: 150px 0; */
+}
+
+.contenidorPrincipal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10em;
+}
+
+.contenidorDreta {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+}
+
+.contenidorEsquerra {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+}
+
+h3 {
+  color: rgb(134, 16, 16);
+  display: flex;
+  font-size: 3em;
+  justify-content: center;
+}
+
+h4 {
+  color: rgb(134, 16, 16);
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.5em;
+  font-weight: 400;
+  margin: 20px 0;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: rgb(230, 230, 230);
+  margin: 5px 0;
+}
+
+.paragraf {
+  font-style: italic;
+  margin-top: -15px;
+  margin-left: 0;
+  text-align: left;
+}
+
+label {
+  font-size: 1.5em;
+}
+
+.caixaNomCognom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.inputInfo {
+  background-color: rgb(230, 230, 230);
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5em;
+  height: 50px;
+  width: 350px;
+}
+
+.caixaNom {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.caixaCognom {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.caixaEmailTelefon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.caixaEmail {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin: 1em 0;
+}
+
+.caixaTelefon {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin: 1em 0;
+}
+
+.assumpte {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin: 1em 0;
+}
+
+.missatge {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin: 1em 0;
+}
+
+.assumpte input {
+  background-color: rgb(230, 230, 230);
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5em;
+  height: 50px;
+  width: 800px;
+}
+
+.missatge input {
+  background-color: rgb(230, 230, 230);
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5em;
+  height: 300px;
+  width: 800px;
+}
+
+.boto {
+  background-color: rgb(134, 16, 16);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 2em;
+  height: 60px;
+  justify-content: center;
+  padding: 5px;
+  width: 200px;
+}
