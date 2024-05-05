@@ -1,0 +1,137 @@
+#hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 0px;
+  text-align: center;
+  flex-direction: column;
+  height: 50vh;
+  justify-content: flex-end;
+  color: white;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.344),
+      rgba(0, 0, 0, 0.867)
+    ),
+    url("../src/images/cadet.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+}
+
+/* #hero h1 {
+  display: flex;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 8em;
+  font-weight: bold;
+} */
+
+#hero p {
+  display: flex;
+  color: rgb(233, 201, 20);
+  font-size: 4em;
+  font-weight: 700;
+  justify-content: flex-end;
+}
+
+#hero button {
+  background-color: rgb(134, 16, 16);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-bottom: 50px;
+  padding: 1em;
+}
+
+#hero button:hover {
+  background-color: rgb(21, 16, 107);
+  color: white;
+}
+
+#contenedorCajas {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: -50px;
+}
+
+.cajaInscripcion {
+  background-color: rgb(1, 1, 86);
+  border: none;
+  border-radius: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 550px;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px;
+  width: 450px;
+}
+
+.cabecera {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.cabecera h3 {
+  font-size: 2em;
+}
+
+.parrafo {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2em;
+  justify-content: center;
+  line-height: 3em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.parrafo p {
+  margin: 5px 0;
+}
+
+#contenedorCajas button {
+  border: none;
+  border-radius: 10px;
+  font-size: 1.5em;
+  padding: 20px;
+}
+
+.cajaInformacion {
+  background-color: rgb(59, 4, 4);
+  border: none;
+  border-radius: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 550px;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px;
+  width: 450px;
+}
+
+.cajaEquipacion {
+  background-color: rgb(165, 172, 69);
+  border: none;
+  border-radius: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 550px;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px;
+  width: 450px;
+}
