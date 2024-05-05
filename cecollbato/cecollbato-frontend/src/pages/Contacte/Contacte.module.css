@@ -1,8 +1,3 @@
-.contenidor {
-  /* background-color: rgb(241, 241, 238); */
-  /* padding: 150px 0; */
-}
-
 .contenidorPrincipal {
   display: flex;
   flex-direction: row;
